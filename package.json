@@ -1,5 +1,5 @@
 {
-  "proxy": "https://assignment-backend-virid.vercel.app",
+  "proxy": "https://mernapi-9qmy.onrender.com",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,

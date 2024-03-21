@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.video-wrapper {
+  position: relative;
+  width: 640px; /* Same as your player */
+  height: 390px; /* Same as your player */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: transparent;
+  z-index: 1; /* Ensures it's above the video player */
+}
